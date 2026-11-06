@@ -9,7 +9,7 @@ A bilingual academic homepage, published at https://strandding.github.io/.
 - 中文简历: `assets/Zihan_Teng_CV_ZH.pdf`
 - `cv.pdf` is a compatibility copy of the current English CV for existing links.
 
-The site is static HTML and CSS. No JavaScript, build tools, web fonts, trackers, or external assets are required. Language navigation and CV downloads work without JavaScript.
+The site is static HTML and CSS, with an optional small pointer-responsive line drawing in the sidebar (`assets/motion.js`). Academic content, language navigation, and CV downloads work without JavaScript. No build tools, web fonts, trackers, or external assets are required.
 
 ## Local preview
 
@@ -21,6 +21,8 @@ Edit both language pages together and keep the publication titles and author ord
 
 GitHub Pages serves the repository root on `main`. `.nojekyll` keeps the site buildless. Canonical URLs, language alternatives, and `sitemap.xml` identify the two language versions.
 
+The sidebar drawing only responds to a mouse on desktop, respects reduced-motion preferences, and stops requesting frames once it settles. It does not replace the cursor, move text, or collect pointer data. A static SVG remains when JavaScript is disabled; the ornament is hidden on narrow screens and in print.
+
 ## Publication sources
 
 - SlimKV: https://aclanthology.org/2026.emnlp-main.983/
@@ -28,4 +30,5 @@ GitHub Pages serves the repository root on `main`. `.nojekyll` keeps the site bu
 - Official EMNLP program: https://2026.emnlp.org/program/
 - Oral schedule: https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490&range=A1047:L1047
 - BitsMoE: https://arxiv.org/abs/2606.00079
-- Personal education, experience, and ICLR 2027 submission status follow the author's October 2026 CVs.
+- Harness Compilation: https://arxiv.org/abs/2610.11231. ICLR 2027 submission status follows the author's public OpenReview screenshot, supplied in November 2026.
+- Personal education, experience, and BitsMoE's ICLR 2027 submission status follow the author's October 2026 CVs.
