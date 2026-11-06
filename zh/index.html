@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="滕子涵，中国科学技术大学硕士研究生。研究方向包括大模型高效推理、KV 缓存压缩、低比特量化与 GPU 系统。SlimKV 第一作者，EMNLP 2026 主会 Oral。">
 <meta name="theme-color" content="#faf9f6">
-<title>滕子涵 | 大模型高效推理</title>
+<title>滕子涵</title>
 <link rel="canonical" href="https://strandding.github.io/zh/">
 <link rel="alternate" hreflang="en" href="https://strandding.github.io/">
 <link rel="alternate" hreflang="zh-CN" href="https://strandding.github.io/zh/">
 <link rel="alternate" hreflang="x-default" href="https://strandding.github.io/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="滕子涵 | 大模型高效推理">
+<meta property="og:title" content="滕子涵">
 <meta property="og:description" content="滕子涵，中国科学技术大学硕士研究生。研究方向包括大模型高效推理、KV 缓存压缩、低比特量化与 GPU 系统。SlimKV 第一作者，EMNLP 2026 主会 Oral。">
 <meta property="og:url" content="https://strandding.github.io/zh/">
 <meta property="og:locale" content="zh_CN">
@@ -31,37 +31,35 @@
 </header>
 <div class="layout">
 <aside class="profile" aria-label="个人信息">
-<p class="overline">算法 · 系统 · 算子</p>
 <h1>滕子涵</h1>
 <p class="alternate-name" lang="en">Zihan Teng</p>
 <p class="affiliation"><span class="role">硕士研究生 · 中国科学技术大学</span>微电子学院<br>电子科学与技术</p>
 <div class="profile-links"><a href="mailto:zihant@mail.ustc.edu.cn">zihant@mail.ustc.edu.cn</a><a href="https://github.com/Strandding">GitHub <span aria-hidden="true">↗</span></a></div>
 <div class="cv-links"><span class="label">个人简历</span><a href="../assets/Zihan_Teng_CV_EN.pdf" download="Zihan_Teng_CV_EN.pdf" lang="en">English PDF <span aria-hidden="true">↓</span></a><a href="../assets/Zihan_Teng_CV_ZH.pdf" download="Zihan_Teng_CV_ZH.pdf" lang="zh-CN">中文 PDF <span aria-hidden="true">↓</span></a></div>
-<div class="research-note" aria-hidden="true"><svg viewBox="0 0 134 36" fill="none"><path d="M0 6h24M0 18h24M0 30h24M40 6h18M40 18h18M40 30h18M74 12h14M74 24h14M104 18h30" stroke="currentColor" stroke-width="1.5"/><path d="m124 13 9 5-9 5" stroke="currentColor"/></svg>更少的存储与计算，<br>探索模型效率的边界。</div>
 </aside>
 <main class="content" id="main">
-<section class="intro" aria-labelledby="intro-title"><h2 id="intro-title">从算法到算子，<br>让大模型推理更高效。</h2><p>我是滕子涵，目前在<a href="https://www.ustc.edu.cn/">中国科学技术大学</a>微电子学院攻读电子科学与技术硕士学位。我的研究聚焦大语言模型的高效推理，尤其关注长上下文场景中的存储与计算瓶颈。</p><p>我的工作涉及 KV 缓存压缩、低比特量化与 GPU 算子优化。目前在腾讯 TEG 担任 AI Infra 实习生，曾于 2025 年 8 月至 2026 年 6 月在新加坡南洋理工大学访问研究。</p><p class="interests"><strong>研究方向</strong> &nbsp; 长上下文大模型 / 模型压缩 / GPU 系统</p><div class="news"><time datetime="2026">2026</time><p>第一作者论文 <a href="https://aclanthology.org/2026.emnlp-main.983/">SlimKV</a> 获 <strong>EMNLP 2026 主会 Oral</strong> 录用。</p></div></section>
+<section class="intro" aria-labelledby="intro-title"><h2 id="intro-title">关于我</h2><p>我是<a href="https://www.ustc.edu.cn/">中国科学技术大学</a>微电子学院的硕士研究生，专业是电子科学与技术。我主要研究长上下文推理中的 KV 缓存压缩，也做模型的低比特量化。</p><p>目前在腾讯 TEG 数据计算平台部做 AI Infra 实习，工作包括注意力算子和推理系统优化。2025 年 8 月至 2026 年 6 月，我在新加坡南洋理工大学访问研究。</p><div class="news"><time datetime="2026">2026</time><p>第一作者论文 <a href="https://aclanthology.org/2026.emnlp-main.983/">SlimKV</a> 获 <strong>EMNLP 2026 主会 Oral</strong> 录用。</p></div></section>
 <section class="section" id="publications"><div class="section-heading"><span class="number" aria-hidden="true">01</span><h2>论文与预印本</h2></div>
 <article class="publication">
 <div class="publication-header"><span class="venue">EMNLP 2026 主会 · Oral</span><span>2026</span></div>
 <h3 lang="en"><a href="https://aclanthology.org/2026.emnlp-main.983/">SlimKV: Joint Token-Feature KV Cache Compression with Reconstruction-Free Beacon Attention</a></h3>
-<p class="authors" lang="en"><strong>Zihan Teng</strong>, Jiayu Zhao, Wentao Ren, Minhao Fan, Tianrui Ma, Song Chen, Weichen Liu</p><p class="abstract">面向长上下文大模型，联合压缩 KV 缓存的词元数量与特征维度，并在低维潜空间中直接计算注意力。在 128K 上下文下，最高实现 7.34× 注意力加速与 3.38× 端到端解码加速。</p>
+<p class="authors" lang="en"><strong>Zihan Teng</strong>, Jiayu Zhao, Wentao Ren, Minhao Fan, Tianrui Ma, Song Chen, Weichen Liu</p><p class="abstract">SlimKV 同时压缩 KV 缓存的 token 数量和特征维度，再直接在压缩后的潜空间中计算注意力。在论文的 128K 上下文实验中，注意力计算和端到端解码最高分别加速 7.34× 和 3.38×。</p>
 <div class="paper-links"><a href="https://aclanthology.org/2026.emnlp-main.983/">论文 <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/abs/2610.02953">arXiv</a><a href="https://github.com/Strandding/SlimKV">代码 <span aria-hidden="true">↗</span></a><a href="https://docs.google.com/spreadsheets/d/1aXGTy_7Xeh-OXIs3iJSbDpUsZ6YhbfA76b17kBZH0Yk/edit?gid=943432490&amp;range=A1047:L1047">Oral 日程</a></div>
 </article>
 <article class="publication">
 <div class="publication-header"><span>预印本 · ICLR 2027 在投</span><span>2026</span></div>
 <h3 lang="en"><a href="https://arxiv.org/abs/2606.00079">BitsMoE: Cost-Aware Bit Allocation in Spectral Space for MoE LLM Quantization</a></h3>
-<p class="authors" lang="en">Jiayu Zhao, <strong>Zihan Teng</strong>, Minhao Fan, Tianrui Ma, Wentao Ren, Song Chen, Weichen Liu</p><p class="abstract">基于细粒度谱分量与量化代价建模，在显存预算下为混合专家模型分配位宽。我参与了优化目标与跨层位宽分配策略修正、基线复现，以及低比特量化性能评估。</p>
+<p class="authors" lang="en">Jiayu Zhao, <strong>Zihan Teng</strong>, Minhao Fan, Tianrui Ma, Wentao Ren, Song Chen, Weichen Liu</p><p class="abstract">BitsMoE 将 MoE 专家权重分解为谱分量，在显存预算内按量化代价分配位宽。我参与了优化目标和跨层位宽分配策略的修正，也做了基线复现和低比特量化实验评估。</p>
 <div class="paper-links"><a href="https://arxiv.org/abs/2606.00079">论文 <span aria-hidden="true">↗</span></a><a href="https://github.com/zjiayu064/BitsMoE">代码 <span aria-hidden="true">↗</span></a></div>
 </article>
 </section>
-<section class="section" id="research"><div class="section-heading"><span class="number" aria-hidden="true">02</span><h2>研究与工程</h2></div><div class="practice"><div><h3>长上下文压缩</h3><p>除 SlimKV 外，我还探索了基于跨层 SVD 的低秩隐状态压缩与离线基底预计算，降低 KV 缓存占用及压缩过程的额外开销。</p></div><div><h3>推理系统与 GPU 算子</h3><p>基于 CUDA 与 FlashAttention-3/CUTLASS 开发面向 vLLM 的 FP8 注意力后端，优化多模态推理流水线，并构建自动化精度排查工具。</p></div></div><p class="tools">CUDA · PyTorch · vLLM · FlashAttention · CUTLASS · Nsight Systems / Compute</p></section>
-<section class="section" id="experience"><div class="section-heading"><span class="number" aria-hidden="true">03</span><h2>研究与实习经历</h2></div><article class="entry"><div class="entry-title"><h3>腾讯 · TEG</h3><span class="date">2026.06 – 至今</span></div><p class="role">AI Infra 实习生 · 青云计划</p><p>北京，数据计算平台部。围绕大规模数据生产，开展低精度注意力后端、多模态推理优化与自动化精度排查工具研发。</p></article>
-<article class="entry"><div class="entry-title"><h3>南洋理工大学</h3><span class="date">2025.08 – 2026.06</span></div><p class="role">访问研究学生 · 新加坡</p><p>研究大语言模型高效推理、长上下文压缩与模型量化。</p></article>
-<article class="entry"><div class="entry-title"><h3>上海孚典智能科技有限公司</h3><span class="date">2024.06 – 2024.08</span></div><p class="role">机器学习算法实习生 · 上海</p><p>面向机场机坪场景，研发视觉标定与动态碰撞预警算法。</p></article></section>
+<section class="section" id="research"><div class="section-heading"><span class="number" aria-hidden="true">02</span><h2>其他工作</h2></div><div class="practice"><div><h3>长上下文压缩</h3><p>我用跨层 SVD 将隐状态压缩为低秩表示，以此替代 KV 缓存。通过提前计算基底，减少了推理时的压缩开销。</p></div><div><h3>推理系统与 GPU 算子</h3><p>我用 CUDA 和 FlashAttention-3/CUTLASS 开发 vLLM 的 FP8 注意力后端，也优化多模态推理流水线，编写数值误差排查工具。</p></div></div><p class="tools">CUDA · PyTorch · vLLM · FlashAttention · CUTLASS · Nsight Systems / Compute</p></section>
+<section class="section" id="experience"><div class="section-heading"><span class="number" aria-hidden="true">03</span><h2>研究与实习经历</h2></div><article class="entry"><div class="entry-title"><h3>腾讯 · TEG</h3><span class="date">2026.06 – 至今</span></div><p class="role">AI Infra 实习生 · 青云计划</p><p>北京，数据计算平台部。优化大规模数据生产任务中的低精度注意力和多模态推理，编写工具排查 PyTorch、vLLM 和 Torch Compile 之间的数值差异。</p></article>
+<article class="entry"><div class="entry-title"><h3>南洋理工大学</h3><span class="date">2025.08 – 2026.06</span></div><p class="role">访问学生 · 新加坡</p><p>研究大模型推理中的 KV 缓存压缩和低比特量化。</p></article>
+<article class="entry"><div class="entry-title"><h3>上海孚典智能科技有限公司</h3><span class="date">2024.06 – 2024.08</span></div><p class="role">机器学习算法实习生 · 上海</p><p>开发机场机坪的视觉标定和碰撞预警算法。</p></article></section>
 <section class="section" id="education"><div class="section-heading"><span class="number" aria-hidden="true">04</span><h2>教育经历</h2></div><article class="entry"><div class="entry-title"><h3>中国科学技术大学</h3><span class="date">2024.09 – 2027.06（预计）</span></div><p class="role">硕士 · 微电子学院 · 电子科学与技术</p><p>GPA 3.91/4.3 · 专业排名 2/23。</p></article>
 <article class="entry"><div class="entry-title"><h3>中国科学技术大学</h3><span class="date">2020.09 – 2024.06</span></div><p class="role">本科 · 物理学院 · 微电子学与固体电子学</p><p>GPA 3.58/4.3 · 专业排名 8/39。2023 年 7–8 月赴台湾清华大学交换。</p></article></section>
-<section class="section contact" id="contact"><div class="section-heading"><span class="number" aria-hidden="true">05</span><h2>联系我</h2></div><p>欢迎交流大模型高效推理、长上下文系统、量化与 GPU 算子相关的研究和合作。可以通过邮件联系我。</p><a href="mailto:zihant@mail.ustc.edu.cn">zihant@mail.ustc.edu.cn <span aria-hidden="true">↗</span></a></section>
+<section class="section contact" id="contact"><div class="section-heading"><span class="number" aria-hidden="true">05</span><h2>联系方式</h2></div><a href="mailto:zihant@mail.ustc.edu.cn">zihant@mail.ustc.edu.cn <span aria-hidden="true">↗</span></a></section>
 </main>
 </div>
 <footer class="footer"><span>© 2026 滕子涵<br>更新于 2026 年 11 月</span><span><a href="https://github.com/Strandding/strandding.github.io">源码</a> · <a href="#top">返回顶部 ↑</a></span></footer>
