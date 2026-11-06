@@ -48,8 +48,12 @@ h1 { font: 400 54px/1.08 var(--serif); letter-spacing: -.045em; margin: 0 0 13px
 .intro p { margin: 0 0 18px; font-size: 15px; line-height: 1.95; }
 .intro > p:first-of-type { font-size: 17px; line-height: 1.85; }
 .intro a { text-decoration-color: #bcc8bb; }
-.news { display: grid; grid-template-columns: 44px 1fr; gap: 18px; margin-top: 30px; padding: 17px 0 0; border-top: 1px solid var(--line); font-size: 12px; line-height: 1.8; }
-.news time { color: var(--muted); font: italic 13px/1.8 var(--serif); }
+.news { margin-top: 30px; padding-top: 19px; border-top: 1px solid var(--line); font-size: 12px; line-height: 1.8; }
+.news h3 { margin: 0 0 15px; color: var(--muted); font-size: 11px; font-weight: 500; letter-spacing: .04em; }
+.news ul { list-style: none; margin: 0; padding: 0; }
+.news li { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 18px; margin-top: 10px; }
+.news li:first-child { margin-top: 0; }
+.news time { padding-top: 1px; color: var(--muted); font-size: 11px; line-height: 1.95; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .news p { margin: 0; font-size: 12px; line-height: 1.8; }
 .news strong { font-weight: 500; color: var(--highlight); }
 .section { margin-bottom: 66px; scroll-margin-top: 40px; }
@@ -133,7 +137,9 @@ html[lang='zh-CN'] .section-heading .number { top: 25px; }
   .intro p { font-size: 14px; }
   .intro > p:first-of-type { font-size: 16px; }
   html[lang='zh-CN'] .intro > p:first-of-type { font-size: 15px; }
-  .news { grid-template-columns: 34px 1fr; gap: 14px; margin-top: 24px; }
+  .news { margin-top: 24px; }
+  .news li { grid-template-columns: 70px minmax(0, 1fr); gap: 14px; }
+  .news p { font-size: 12px; }
   .section { margin-bottom: 48px; }
   .section-heading { gap: 11px; padding-top: 19px; margin-bottom: 26px; }
   .section-heading .number { position: static; font-size: 11px; }
